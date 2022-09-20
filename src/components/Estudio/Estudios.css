@@ -1,0 +1,30 @@
+.estudios__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #1a5276;
+  color: var(--secondary-color);
+  height: 92vh;
+}
+
+.estudios__title {
+  position: absolute;
+  width: 100%;
+  margin-bottom: 3rem;
+  text-align: center;
+  padding: 1rem;
+  font-size: 24px;
+  background-color: #1a5276;
+  color: #fff;
+}
+
+@media (min-width: 240px) and (max-width: 424px) {
+  .estudios__container {
+    display: block;
+  }
+  .estudios__title {
+    position: relative;
+    width: 100%;
+    margin: 0;
+  }
+}

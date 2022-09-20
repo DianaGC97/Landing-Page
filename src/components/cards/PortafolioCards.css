@@ -1,0 +1,74 @@
+.card__portafolio {
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-color);
+}
+
+.card__container {
+  width: 80%;
+  background-color: var(--secondary-color);
+  padding: 1rem;
+  margin: 10px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-areas:
+    "image title"
+    "image btn1";
+  align-items: end;
+  justify-items: center;
+}
+
+.card__img {
+  grid-area: image;
+  width: 200px;
+}
+
+.titulo {
+  font-size: 40px;
+}
+
+.card__descripcion {
+  font-size: 20px;
+}
+
+.card__titulo {
+  color: var(--primary-color);
+  text-align: center;
+  grid-area: title;
+}
+.card__buttons {
+  grid-area: btn1;
+}
+
+.card__buttons > a > button {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  font-size: 20px;
+  padding: 0.5rem;
+  border-radius: 10px;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.card__buttons > a > button:hover {
+  background: rgb(17, 234, 234);
+  color: var(--primary-color);
+}
+
+@media (min-width: 240px) and (max-width: 424px) {
+  .card__container {
+    grid-template-areas:
+      "image"
+      "title"
+      "btn1";
+    margin: 0.4rem;
+  }
+  .card__img {
+    width: 160px;
+  }
+
+  .card__descripcion {
+    font-size: 15px;
+    padding: 1rem 0;
+  }
+}

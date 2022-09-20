@@ -1,0 +1,50 @@
+/*----------------------------------   iNICIO -----------------------------------*/
+.inicio__container {
+  padding: 200px 0;
+  color: #fff;
+  height: 100%;
+  margin: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 60px;
+}
+
+p {
+  font-size: 35px;
+  text-align: center;
+  padding: 0 0.6rem;
+}
+
+.inicio__container:before {
+  content: "";
+  background: url("../../assets/inicio.jpg") no-repeat center center/cover;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+@media (min-width: 240px) and (max-width: 424px) {
+  .inicio__container {
+    padding: 60px 2rem;
+    margin: 1rem;
+  }
+
+  h1 {
+    font-size: 30px;
+    margin: 0;
+  }
+
+  .inicio__container > p {
+    font-size: 24px;
+    color: #fff;
+    padding-top: 0.8rem;
+    margin: 0;
+  }
+}

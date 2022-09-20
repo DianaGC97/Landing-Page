@@ -1,0 +1,52 @@
+.perfil__container {
+  display: flex;
+  background-color: var(--secondary-color);
+  height: 80%;
+}
+
+.col-2 {
+  padding-top: 5rem;
+}
+
+.col-2 h1 {
+  color: var(--primary-color);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  font-size: 50px;
+}
+
+.perfil__container > img {
+  width: 500px;
+}
+
+.col-2 p {
+  color: var(--primary-color);
+}
+
+@media (min-width: 240px) and (max-width: 424px) {
+  .perfil__container {
+    display: block;
+    height: 100%;
+  }
+
+  .perfil__container > img {
+    background-color: var(--secondary-color);
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    padding: 1rem;
+  }
+  .col-2 {
+    padding-top: 0;
+  }
+  .col-2 h1 {
+    color: var(--primary-color);
+    font-size: 32px;
+    text-align: center;
+  }
+
+  .col-2 p {
+    color: var(--primary-color);
+    font-size: 25px;
+  }
+}

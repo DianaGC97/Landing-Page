@@ -1,0 +1,31 @@
+.container__estudios {
+  margin-top: 0vh;
+}
+
+.card__image {
+  width: 20vw;
+}
+
+@media (min-width: 240px) and (max-width: 424px) {
+  .card__container {
+    background-color: var(--primary-color);
+  }
+
+  .card__image {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0 0 7rem;
+  }
+
+  p {
+    color: var(--secondary-color);
+    font-size: 30px;
+    margin-bottom: 0;
+  }
+
+  .card__container {
+    margin-top: 0;
+  }
+}
