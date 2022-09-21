@@ -11,10 +11,10 @@ export const Perfil = () => {
           con React JS
         </h1>
         <p>
-          Desarrollar es uno de mis hobbys favoritos porque por medio de este
-          siento que se puede hacer cualquier cosa que se imagine por medio las
-          instrucciones que le pasamos a la computadora, quiero que conozcan mas
-          sobre mi trabajo en este landing page.
+          Uno de mis hobbys favoritos es desarrollar, porque me permite hacer
+          cualquier cosa que me imagine por medio de las instrucciones que le
+          pase a la computadora, quiero que conozcan mas sobre mi trabajo en
+          este landing page.
         </p>
       </div>
     </div>

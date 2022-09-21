@@ -20,7 +20,7 @@ export const Experiencia = () => {
     },
     {
       title: "Landing Page",
-      description: "Realizada con react y react-router-dom",
+      description: "Realizada con react y react-router-dom y es movile",
     },
   ]);
   return (

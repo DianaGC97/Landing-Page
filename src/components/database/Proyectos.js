@@ -36,9 +36,9 @@ export const Proyectos = [
         id: 4,
         title: 'Landing Page',
         url: landing,
-        descripcion: 'Realizada con react y react-router-dom',
-        url_preview: "https://www.google.com/",
-        url_github: "https://www.youtube.com/"
+        descripcion: 'Realizada con react y react-router-dom y es movile',
+        url_preview: "https://landing-page-235bb.web.app/experiencia",
+        url_github: "https://github.com/DianaGC97/Landing-Page"
 
     },
 ]
